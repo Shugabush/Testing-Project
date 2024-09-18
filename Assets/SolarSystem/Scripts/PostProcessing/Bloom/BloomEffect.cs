@@ -4,6 +4,8 @@
 
 using UnityEngine;
 
+[ExecuteInEditMode, ImageEffectAllowedInSceneView]
+[CreateAssetMenu(menuName = "PostProcessing/Bloom")]
 public class BloomEffect : PostProcessingEffect
 {
     /// <summary>
