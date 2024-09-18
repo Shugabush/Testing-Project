@@ -74,7 +74,10 @@ namespace SolarSystem
 
         public void UpdateTexture()
         {
-            settings.planetMaterial.SetInt("_UseOcean", settings.useOcean ? 1 : 0);
+            if (settings != null && settings.planetMaterial != null)
+            {
+                settings.planetMaterial.SetInt("_UseOcean", settings.useOcean ? 1 : 0);
+            }
             if (texture != null)
             {
                 settings.planetMaterial.mainTexture = texture;
