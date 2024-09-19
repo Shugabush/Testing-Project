@@ -110,7 +110,8 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _AtmosphereRadius: 0
+    - _AtmosphereIntensity: 4.9
+    - _AtmosphereRadius: 3.6
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
@@ -124,16 +125,19 @@ Material:
     - _DstBlend: 10
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+    - _Float: 3
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
+    - _MinTransparency: 0
     - _OcclusionStrength: 1
     - _OceanRadius: 0
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _SceneColorLerpAmount: 0.5
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -148,7 +152,7 @@ Material:
     - oceanRadius: 0
     - planetRadius: 0
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.26099145, g: 0.6509434, b: 0.64339596, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DirToSun: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
