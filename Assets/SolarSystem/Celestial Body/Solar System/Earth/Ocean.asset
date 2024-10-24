@@ -16,11 +16,11 @@ MonoBehaviour:
   alphaMultiplier: 70
   colA: {r: 0, g: 0.5882353, b: 1, a: 1}
   colB: {r: 0, g: 0.15676357, b: 0.5849056, a: 1}
-  specularCol: {r: 1, g: 1, b: 1, a: 1}
-  waveNormalA: {fileID: 0}
-  waveNormalB: {fileID: 0}
-  waveStrength: 0.15
-  waveScale: 15
+  specularCol: {r: 1, g: 1, b: 0.78431374, a: 1}
+  waveNormalA: {fileID: 2800000, guid: 22ce6bfd05a7041529cf1bc4de37ed57, type: 3}
+  waveNormalB: {fileID: 2800000, guid: 2735e2726ca46411398278a9fa8a26d4, type: 3}
+  waveStrength: 0.668
+  waveScale: 25
   waveSpeed: 0.5
-  smoothness: 0.92
-  testParams: {x: 0, y: 0, z: 0, w: 0}
+  smoothness: 0.927
+  testParams: {x: 0, y: 50, z: 20, w: 9.4}

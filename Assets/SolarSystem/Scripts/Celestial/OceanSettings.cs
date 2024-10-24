@@ -10,7 +10,8 @@ namespace SolarSystem
         public Color colA, colB;
         public Color specularCol = Color.white;
         [Header("Waves")]
-        public Texture2D waveNormalA, waveNormalB;
+        public Texture2D waveNormalA;
+        public Texture2D waveNormalB;
         [Range(0f, 1f)]
         public float waveStrength = 0.15f;
         public float waveScale = 15f;
